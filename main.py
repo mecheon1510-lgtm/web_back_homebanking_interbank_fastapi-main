@@ -18,13 +18,11 @@ app = FastAPI(
     version="1.0.0",
 )
 
-app = FastAPI()
-
 # Configurar los orígenes permitidos (CORS)
 origins = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "https://web-front-core-interbank-react-main.vercel.app",  # Tu url de Vercel
+    "https://web-front-homebanking-interbank-rea.vercel.app/",  # Tu url de Vercel
     "*"  # Esto permite temporalmente cualquier origen si quieres asegurar que conecte
 ]
 
